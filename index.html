@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="mk">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Изгради свое медиумско царство</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+</head>
+<body>
+<div class="container">
+    <header>
+        <h1>Изгради свое медиумско царство</h1>
+        <p>Прави одлуки и гради доверба, публика и приход!</p>
+    </header>
+
+    <section id="stats">
+        <div class="stat">
+            <i class="fa-solid fa-shield-halved"></i>
+            <div>
+                <span>Доверба</span>
+                <div class="progress-bar" id="trust-bar"><div class="progress-fill"></div></div>
+                <span class="stat-value" id="trust-value">0</span>
+            </div>
+        </div>
+        <div class="stat">
+            <i class="fa-solid fa-users"></i>
+            <div>
+                <span>Публика</span>
+                <div class="progress-bar" id="audience-bar"><div class="progress-fill"></div></div>
+                <span class="stat-value" id="audience-value">0</span>
+            </div>
+        </div>
+        <div class="stat">
+            <i class="fa-solid fa-coins"></i>
+            <div>
+                <span>Приход</span>
+                <div class="progress-bar" id="income-bar"><div class="progress-fill"></div></div>
+                <span class="stat-value" id="income-value">0</span>
+            </div>
+        </div>
+    </section>
+
+    <section id="game-area">
+        <div id="question-container">
+            <h2 id="question-title"></h2>
+            <p id="question-text"></p>
+        </div>
+
+        <div id="options-container"></div>
+    </section>
+
+    <footer>
+        <p>© 2025 Медумско Царство - Едукативна Игра</p>
+    </footer>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
