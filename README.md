@@ -11,7 +11,7 @@ Every decision affects three indicators – Trust, Audience, and Revenue – so 
 ## 💻 Run Locally
 
 ```bash
-git clone https://github.com/<твоето-корисничко-име>/truth-or-clicks.git
+git clone https://github.com/svuksanova/truth-or-clicks.git
 cd truth-or-clicks
 # доволно е да отвориш index.html, или
 npx serve .
