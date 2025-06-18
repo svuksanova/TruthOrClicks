@@ -12,6 +12,6 @@ Every decision affects three indicators – Trust, Audience, and Revenue – so 
 
 ```bash
 git clone https://github.com/svuksanova/TruthOrClicks
-cd truth-or-clicks
+cd TruthOrClicks
 # доволно е да отвориш index.html, или
 npx serve .
