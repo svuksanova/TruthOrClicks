@@ -547,7 +547,7 @@ function showQuestion() {
 
 function showEndScreen() {
     titleEl.textContent = "Играта заврши!";
-    textEl.textContent = `Ти имаш: Доверба - ${trust}, Публика - ${audience}, Приход - ${income}`;
+    textEl.textContent = `Ти имаш: Доверба -> ${trust}, Публика -> ${audience}, Приход -> ${income}`;
 
     optionsContainer.innerHTML = "";
     const restartBtn = document.createElement("button");
